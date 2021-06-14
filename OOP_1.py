@@ -181,15 +181,15 @@
 #         print(f"Вместительность стадиона {self.capacity}")
 #
 #
-#     def get_name(self, name):
+#     def get_name(self):
 #         return self.name
-#     def get_year(self, year):
+#     def get_year(self):
 #         return self.year
-#     def get_country(self, country):
+#     def get_country(self):
 #         return self.country
-#     def get_city(self, city):
+#     def get_city(self):
 #         return self.city
-#     def get_capacity(self, capacity):
+#     def get_capacity(self):
 #         return self.capacity
 #
 #     def set_name(self, name):
@@ -210,7 +210,6 @@
 #
 # Stadium_football = Stadium()
 # Stadium_football.input_all()
-# Stadium_football.show()
 # Stadium_football.print_all()
 # Stadium_football.set_name("Akvamarine")
-# print(Stadium_football.get_name())
+# Stadium_football.get_name()
