@@ -24,7 +24,7 @@ def get_html(URL, HEAD=HEADERS):
 
 
 res = get_html(URL, HEADERS)
-f = open('cars.csv', 'wt', encoding='utf-8')
+f = open('work.csv', 'wt', encoding='utf-8')
 for work in res:
     print()
     f.write(work['Name'] + ';')
